@@ -1,0 +1,119 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.header {
+    padding-top: 53px;
+    display: flex;
+    align-items: center;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.header ul {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.header li{
+    margin-left: 40px;
+}
+.header li:last-child a{
+    background: #6B77E5;
+    color: white;
+    padding: 22px 35px;
+}
+
+.howWeWork {
+    max-width: 1220px;
+    margin: auto;
+    text-align: center;
+}
+
+.howWeWork > div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.howWeWork div div{
+    background: #F4F4F4;
+    padding: 58px 43px;
+    width: 386px;
+}
+
+.howWeWork div div *{
+    display: block;
+    margin: auto;
+}
+.backgroundImg{
+    background: url("imgs/Image.svg");
+    text-align: center;
+    padding: 143px 0;
+    margin-top: 60px;
+
+}
+.backgroundImg p{
+    width: 400px;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    
+}
+
+.footer div {
+    
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: auto;
+    height: 670px;
+    
+}
+
+.people div{
+    align-items: center;
+    display: block;
+    height: 532px;
+    width: 386px;
+    background-color: blue;
+    margin-bottom: 131px;
+
+}
+
+.people p {
+    size: 18px;
+    font-weight: 400;
+}
+.name {
+    size: 25px;
+    font-weight: 600;
+    padding: 24px, 69px, 62px;
+    background-color:white; 
+    max-width: 341px;
+}
+
+.rectangle {
+    padding: 24px, 69px, 62px;
+    margin-bottom: 22px;
+    margin-top: 396px;
+    margin-left: 22px;
+    justify-content: ;
+
+}
+
