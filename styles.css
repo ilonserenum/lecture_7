@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: "poppins";
+}
+
+
 * {
     text-decoration: none;
     box-sizing: border-box;
@@ -86,13 +94,12 @@ a {
     
 }
 
-.people div{
+.content {
     align-items: center;
     display: block;
     height: 532px;
     width: 386px;
-    background-color: blue;
-    margin-bottom: 131px;
+    position: relative;
 
 }
 
@@ -103,17 +110,18 @@ a {
 .name {
     size: 25px;
     font-weight: 600;
-    padding: 24px, 69px, 62px;
-    background-color:white; 
-    max-width: 341px;
 }
 
 .rectangle {
-    padding: 24px, 69px, 62px;
-    margin-bottom: 22px;
-    margin-top: 396px;
-    margin-left: 22px;
-    justify-content: ;
+    position: absolute;
+    bottom: 0;
+    padding: 24px 69px;
+    margin: 22px auto;
+    background-color:white; 
+    width: 340px;
+    left: 0;
+    right: 0;
+    
 
 }
 
